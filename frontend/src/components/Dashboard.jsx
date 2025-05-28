@@ -30,7 +30,9 @@ const Dashboard = () => {
         <nav>
           <a href="#">ADMIN</a>
           <a href="#">CREATE BILL</a>
-          <button onClick={handleLogout}>Logout</button>
+          <button className="logoutbutton" onClick={handleLogout}>
+            LOGOUT
+          </button>
           <button onClick={toggleTheme}>{isDarkMode ? "🌙" : "🌞"}</button>
         </nav>
       </header>
